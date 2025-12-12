@@ -1,0 +1,45 @@
+div#windows{
+    background-color: rgb(0, 132, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    margin: 250px 150px 5px 150px;
+    color: white;
+}
+
+div#windows h1{
+    align-items: center;
+    margin: auto;
+
+}
+
+div#windows > img {
+    width: 100px;
+    margin: 20px 0 20px 20px ;
+    display: flex;
+}
+
+div#macOS {
+    background-color: rgb(133, 170, 250);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 150px 5px 150px;
+}
+
+div#macOS > img {
+    width: 100px;
+    margin: 20px 0 20px 20px;
+    display: flex;
+}
+
+div#linux {
+    background-color: rgb(47, 48, 54);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    margin: 5px 150px 5px 150px;
+}
+div#linux > img {
+    width: 100px;
+    margin: 20px 0 20px 20px;
+}
