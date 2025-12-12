@@ -1,0 +1,305 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 0 0;
+    font-family: serif;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode header {
+    background-color: #4a4853;
+    color: #f1f1f1;
+}
+
+body.dark-mode main {
+    background-color: #222121;
+    color: #f1f1f1;
+}
+
+body.dark-mode div.downloads{
+    background-color: #222121;
+}
+
+body.dark-mode a{
+    background-color: #302929;
+    color: #f1f1f1;
+}
+header{
+    background-color: rgb(228, 228, 228);
+    color: black;
+    border-radius: 0 0 20px rgba(0, 0, 0, 0.466);
+    margin: 0 0 0 0;
+    padding-top: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
+    padding-bottom: 25px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(182, 182, 182);
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+header > nav > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 130, 130);
+}
+
+header > nav{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#linux-logo{
+    width: 30vw;
+    display: flex;
+    margin: auto;
+}
+
+header > h2{
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+header > h1{
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+main{
+    margin: 0 10vw 0 10vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    padding-top: 1px;
+}
+
+main > section.primeirapag > .texto1 > h1{
+    text-indent: 40px;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+main > section.primeirapag >.texto1 > h2{
+    text-indent: 80px;
+}
+
+main > section.primeirapag > .texto1 > p{
+    text-indent: 60px;
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-top: 0;
+}
+
+
+.imagem-direita {
+    margin-top: 150px;
+    margin-right: 150px;
+    width: 300px;
+    height: auto;
+}
+
+
+section.primeirapag{
+    display: flex;
+}
+
+section.segundapag{
+    background-color: rgb(24, 24, 27);
+}
+
+main > section.segundapag > h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+main > section.segundapag > p{
+    color: white;
+    text-align: center;
+    margin: 0 80px 20px 80px;
+}
+
+main > section.segundapag > h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.video-linux{
+    display: flex;
+    margin: auto;
+}
+
+main > section.segundapag > .pabaixovideo{
+    margin: 20px 80px 0px 80px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+section.terceirapag{
+    background-color: rgb(255, 208, 0);
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+
+main > section.terceirapag > h1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+main > section.terceirapag > h2{
+    color: black;
+    text-align: center;
+}
+
+.downloads {
+    background-color: white;
+    margin: 10px 15vw 10px 15vw;
+    padding: 30px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.downloads > h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(24, 24, 27);
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+
+.listas ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.listas > ul > li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.listas > ul > li > a{
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: larger;
+}
+
+.listas > ul > li > a:hover{
+    padding: 15px;
+    background-color: rgb(206, 169, 5);
+}
+
+footer > p {
+    margin: 0;
+    padding: 5px;
+}
+
+@media(max-width:1500px) {
+    .imagem-direita{
+        margin-top: 200px;
+        width: 200px;
+    }
+}
+
+@media(max-width:1190px) {
+    .imagem-direita{
+        display: none;
+    }
+    main > section.primeirapag > .texto1{ 
+        margin: auto;
+        text-align: center;
+        text-indent: 0px;
+    }
+    main > section.primeirapag > .texto1 > h2{ 
+    text-indent: 0px;
+    }
+    main > section.primeirapag > .texto1 > p{ 
+    text-indent: 0px;
+    }
+    main > section.primeirapag > .texto1 > h1{ 
+    text-indent: 0px;
+    }
+}
+
+@media (max-width: 652px){
+    header > nav > #home{
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+
+@media (max-width: 1100px){
+    main{
+        margin: 0 0 0 0;
+    }
+    section > .downloads > .listas ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding: 0px;
+        justify-items: center;
+    }
+    section > .downloads > .listas ul li{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .downloads{
+        padding-bottom: 30px;
+    }
+    main > section.primeirapag >  .texto1 > p{
+        text-align: justify;
+        margin: 0 20px 0 20px;
+    }
+
+    main > section.segundapag > p {
+        text-align: center;
+        margin: 0 20px 20px 20px;
+    }
+
+    main > section.segundapag > .pabaixovideo {
+        margin: 20px 20px 0px 20px;
+    }
+    .video-linux{
+        width: 350px;
+        height: auto;
+    }
+}
+
