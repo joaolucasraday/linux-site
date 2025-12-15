@@ -15,6 +15,7 @@ body{
 
 #title h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 header {
@@ -32,112 +33,74 @@ nav > a{
     
 }
 
-h1 {
-    transition: 0.3s;
+main {
+    justify-content: space-between;
+    display: flex;
+}
+.borda {
+    background-color: rgb(155, 155, 189);
+    margin: 60px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
 }
 
-
-p {
-    display: none;
+p.p-borda {
     text-align: center;
-    margin: auto;
-}
-
-div#windows:hover {
-  padding-bottom: 40px;
-}
-
-div#macOS:hover {
-    padding-bottom: 40px;
-}
-
-div#linux:hover {
-    padding-bottom: 40px;
-}
-
-div:hover p {
-  display: inline;
-  margin-top: 100px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-div#windows:hover h1 {
-  margin-bottom: 80px;
-}
-
-div#macOS:hover h1 {
-    margin-bottom: 80px;
-}
-
-div#linux:hover h1 {
-    margin-bottom: 80px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
 }
 div#windows{
     background-color: rgb(0, 132, 255);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 150px 30vw 5px 30vw;
-    align-items: center;
-    display: flex;
-    position: relative;
-    transition: all 0.3s;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
 }
 
 div#windows h1{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+}
+
+div#windows p {
 }
 
 div#windows > img {
-    width: 100px;
-    margin: 20px 0 20px 20px;
+    width: 150px;
+    margin: auto;
     display: flex;
 }
 
 div#macOS {
     background-color: rgb(133, 170, 250);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 5px 30vw 5px 30vw;
-    align-items: center;
-    position: relative;
-    display: flex;
-    transition: all 0.5s;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
 }
 
 div#macOS > img {
-    width: 100px;
-    margin: 20px 0 20px 20px;
+    width: 150px;
+    margin: auto;
     display: flex;
 }
 
 div#macOS > h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
 }
 
 div#linux {
     background-color: rgb(47, 48, 54);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
-    margin: 5px 30vw 5px 30vw;
-    align-items: center;
-    position: relative;
-    transition: all 0.5s;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 div#linux > img {
-    width: 100px;
-    margin: 20px 0 20px 20px;
+    width: 150px;
+    margin: auto;
+    display: flex;
 }
 
 div#linux > h1 {
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
+    text-align: center;
 }
